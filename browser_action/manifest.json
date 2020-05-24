@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "browser action sample",
+  "version": "0.0.1.0",
+  "browser_action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://github.com/*"],
+      "js": ["main.js"]
+    }
+  ]
+}

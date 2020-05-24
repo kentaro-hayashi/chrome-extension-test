@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+  "name": "github blue",
+  "version": "0.0.1.0",
+  "content_scripts": [
+    {
+      "matches": ["https://github.com/*"],
+      "css": ["styles.css"],
+      "js": ["main.js"]
+    }
+  ]
+}
